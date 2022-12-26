@@ -1,0 +1,55 @@
+.file{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.box{
+    width: 50%;
+    /* height: 50%; */
+    background-color: rgb(208, 168, 245);
+    border-radius: 10px;
+    box-shadow: 0 7px 10px rgb(187, 187, 187);
+    text-align: center;
+}
+
+h1{
+    margin: 60px 0px;
+}
+
+.box1{
+    margin-bottom: 20px;
+}
+
+.but1{
+    margin-left: 20px;
+    background-color: rgb(231, 96, 34);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+.but1:hover{
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+.but2{
+    /* margin-left: 20px; */
+    background-color: rgb(73, 236, 32);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+.but2:hover{
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+.span{
+    color: rgb(218, 214, 214);
+}
